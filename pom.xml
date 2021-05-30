@@ -21,5 +21,10 @@
     <version>2.5</version>
 </dependency>
 </dependencies>
- 
+ <distributionManagement>
+  <repository>
+    <id>thirdparty</id>
+    <url>http://40.117.98.135:8081/nexus/content/repositories/thirdparty</url>
+  </repository>
+</distributionManagement>
 </project>
